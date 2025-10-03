@@ -18,6 +18,16 @@
 
 ---
 
+## 🖼️ Hero Image
+
+<div align="center">
+
+![Hero Image](images/hero_image.webp)
+
+</div>
+
+---
+
 ## 🇺🇸 English
 
 ### 📋 Overview
@@ -26,57 +36,63 @@ Customer Relationship Management System built with modern Java technologies and 
 
 ### ✨ Key Features
 
-• 360-degree customer view
-• Sales pipeline management
-• Automated marketing campaigns
-• Customer interaction tracking
-• Advanced analytics dashboard
-• Integration with email systems
-• Mobile CRM application
-• Customizable reporting tools
+*   360-degree customer view
+*   Sales pipeline management
+*   Automated marketing campaigns
+*   Customer interaction tracking
+*   Advanced analytics dashboard
+*   Integration with email systems
+*   Mobile CRM application
+*   Customizable reporting tools
 
 ### 🛠️ Technology Stack
 
-- **Java 17+** - Latest LTS version with modern language features
-- **Spring Boot 3.0+** - Enterprise application framework
-- **Spring Web** - RESTful web services
-- **Maven** - Dependency management and build automation
-- **JUnit 5** - Unit testing framework
-- **Spring Boot DevTools** - Development productivity tools
+*   **Java 17+** - Latest LTS version with modern language features
+*   **Spring Boot 3.0+** - Enterprise application framework
+*   **Spring Web** - RESTful web services
+*   **Maven** - Dependency management and build automation
+*   **JUnit 5** - Unit testing framework
+*   **Spring Boot DevTools** - Development productivity tools
 
 ### 🚀 Quick Start
 
 #### Prerequisites
-- Java 17 or higher
-- Maven 3.8 or higher
-- IDE (IntelliJ IDEA, Eclipse, or VS Code)
+
+*   Java 17 or higher
+*   Maven 3.8 or higher
+*   IDE (IntelliJ IDEA, Eclipse, or VS Code)
 
 #### Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/galafis/Java-CRM-Platform.git
-   cd Java-CRM-Platform
-   ```
+1.  **Clone the repository**
 
-2. **Build the project**
-   ```bash
-   mvn clean compile
-   ```
+    ```bash
+    git clone https://github.com/galafis/Java-CRM-Platform.git
+    cd Java-CRM-Platform
+    ```
 
-3. **Run tests**
-   ```bash
-   mvn test
-   ```
+2.  **Build the project**
 
-4. **Start the application**
-   ```bash
-   mvn spring-boot:run
-   ```
+    ```bash
+    mvn clean compile
+    ```
 
-5. **Access the application**
-   - Open your browser and navigate to: `http://localhost:8080`
-   - API documentation available at: `http://localhost:8080/swagger-ui.html`
+3.  **Run tests**
+
+    ```bash
+    mvn test
+    ```
+
+4.  **Start the application**
+
+    ```bash
+    mvn spring-boot:run
+    ```
+
+5.  **Access the application**
+
+    *   Open your browser and navigate to: `http://localhost:8080`
+    *   API documentation available at: `http://localhost:8080/swagger-ui.html`
 
 ### 📖 Usage Examples
 
@@ -164,11 +180,11 @@ docker run -p 8080:8080 Java-CRM-Platform
 
 ### 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1.  Fork the repository
+2.  Create a feature branch (`git checkout -b feature/amazing-feature`)
+3.  Commit your changes (`git commit -m 'Add amazing feature'`)
+4.  Push to the branch (`git push origin feature/amazing-feature`)
+5.  Open a Pull Request
 
 ### 📝 License
 
@@ -177,8 +193,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 👨‍💻 Author
 
 **Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
+
+*   GitHub: [@galafis](https://github.com/galafis)
+*   LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
 
 ---
 
@@ -186,61 +203,67 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 📋 Visão Geral
 
-Customer Relationship Management System construído com tecnologias Java modernas e arquitetura de nível empresarial. Este projeto demonstra habilidades avançadas de desenvolvimento Java, expertise no framework Spring Boot e práticas profissionais de engenharia de software.
+Sistema de Gerenciamento de Relacionamento com o Cliente (CRM) construído com tecnologias Java modernas e arquitetura de nível empresarial. Este projeto demonstra habilidades avançadas de desenvolvimento Java, expertise no framework Spring Boot e práticas profissionais de engenharia de software.
 
 ### ✨ Principais Funcionalidades
 
-• 360-degree customer view
-• Sales pipeline management
-• Automated marketing campaigns
-• Customer interaction tracking
-• Advanced analytics dashboard
-• Integration with email systems
-• Mobile CRM application
-• Customizable reporting tools
+*   Visão 360 graus do cliente
+*   Gerenciamento de pipeline de vendas
+*   Campanhas de marketing automatizadas
+*   Rastreamento de interações com clientes
+*   Painel de análise avançada
+*   Integração com sistemas de e-mail
+*   Aplicativo CRM móvel
+*   Ferramentas de relatórios personalizáveis
 
 ### 🛠️ Stack Tecnológica
 
-- **Java 17+** - Versão LTS mais recente com recursos modernos da linguagem
-- **Spring Boot 3.0+** - Framework para aplicações empresariais
-- **Spring Web** - Serviços web RESTful
-- **Maven** - Gerenciamento de dependências e automação de build
-- **JUnit 5** - Framework de testes unitários
-- **Spring Boot DevTools** - Ferramentas de produtividade para desenvolvimento
+*   **Java 17+** - Versão LTS mais recente com recursos modernos da linguagem
+*   **Spring Boot 3.0+** - Framework para aplicações empresariais
+*   **Spring Web** - Serviços web RESTful
+*   **Maven** - Gerenciamento de dependências e automação de build
+*   **JUnit 5** - Framework de testes unitários
+*   **Spring Boot DevTools** - Ferramentas de produtividade para desenvolvimento
 
 ### 🚀 Início Rápido
 
 #### Pré-requisitos
-- Java 17 ou superior
-- Maven 3.8 ou superior
-- IDE (IntelliJ IDEA, Eclipse ou VS Code)
+
+*   Java 17 ou superior
+*   Maven 3.8 ou superior
+*   IDE (IntelliJ IDEA, Eclipse ou VS Code)
 
 #### Instalação e Configuração
 
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/galafis/Java-CRM-Platform.git
-   cd Java-CRM-Platform
-   ```
+1.  **Clone o repositório**
 
-2. **Compile o projeto**
-   ```bash
-   mvn clean compile
-   ```
+    ```bash
+    git clone https://github.com/galafis/Java-CRM-Platform.git
+    cd Java-CRM-Platform
+    ```
 
-3. **Execute os testes**
-   ```bash
-   mvn test
-   ```
+2.  **Compile o projeto**
 
-4. **Inicie a aplicação**
-   ```bash
-   mvn spring-boot:run
-   ```
+    ```bash
+    mvn clean compile
+    ```
 
-5. **Acesse a aplicação**
-   - Abra seu navegador e navegue para: `http://localhost:8080`
-   - Documentação da API disponível em: `http://localhost:8080/swagger-ui.html`
+3.  **Execute os testes**
+
+    ```bash
+    mvn test
+    ```
+
+4.  **Inicie a aplicação**
+
+    ```bash
+    mvn spring-boot:run
+    ```
+
+5.  **Acesse a aplicação**
+
+    *   Abra seu navegador e navegue para: `http://localhost:8080`
+    *   Documentação da API disponível em: `http://localhost:8080/swagger-ui.html`
 
 ### 📖 Exemplos de Uso
 
@@ -274,6 +297,29 @@ spring.datasource.driver-class-name=org.h2.Driver
 logging.level.com.galafis=DEBUG
 ```
 
+### 🏗️ Estrutura do Projeto
+
+```
+Java-CRM-Platform/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/galafis/
+│   │   │       ├── Application.java
+│   │   │       ├── controller/
+│   │   │       ├── service/
+│   │   │       ├── model/
+│   │   │       └── config/
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│   └── test/
+│       └── java/
+├── pom.xml
+├── README.md
+└── LICENSE
+```
+
 ### 🧪 Testes
 
 Execute a suíte completa de testes:
@@ -305,11 +351,11 @@ docker run -p 8080:8080 Java-CRM-Platform
 
 ### 🤝 Contribuindo
 
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/funcionalidade-incrivel`)
-3. Commit suas mudanças (`git commit -m 'Adiciona funcionalidade incrível'`)
-4. Push para a branch (`git push origin feature/funcionalidade-incrivel`)
-5. Abra um Pull Request
+1.  Faça um fork do repositório
+2.  Crie uma branch para sua feature (`git checkout -b feature/funcionalidade-incrivel`)
+3.  Commit suas mudanças (`git commit -m 'Adiciona funcionalidade incrível'`)
+4.  Push para a branch (`git push origin feature/funcionalidade-incrivel`)
+5.  Abra um Pull Request
 
 ### 📝 Licença
 
@@ -318,8 +364,9 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ### 👨‍💻 Autor
 
 **Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
+
+*   GitHub: [@galafis](https://github.com/galafis)
+*   LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
 
 ---
 
@@ -330,3 +377,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 **🚀 Desenvolvido com ❤️ por Gabriel Demetrios Lafis**
 
 </div>
+
