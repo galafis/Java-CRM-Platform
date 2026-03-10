@@ -1,210 +1,103 @@
-# 🚀 Java Crm Platform
+# Java CRM Platform
 
-> Professional Java-CRM-Platform - Created by Gabriel Demetrios Lafis
+[English](#english) | [Portugues](#portugues)
 
-[![Java](https://img.shields.io/badge/Java-21-ED8B00.svg)](https://img.shields.io/badge/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+---
 
-[English](#english) | [Português](#português)
+## Portugues
+
+Plataforma de CRM (Customer Relationship Management) em Java com gestao de clientes, rastreamento de interacoes, pipeline de vendas com estagios e analises de desempenho comercial.
+
+### Arquitetura
+
+```mermaid
+graph TD
+    A[CrmPlatform] --> B[Customer Management]
+    A --> C[Interaction Tracking]
+    A --> D[Sales Pipeline]
+    A --> E[Analytics Engine]
+    B --> F[Customer]
+    B --> G[Segmentation]
+    C --> H[Email]
+    C --> I[Call]
+    C --> J[Meeting]
+    C --> K[Support Ticket]
+    D --> L[Prospecting]
+    D --> M[Qualification]
+    D --> N[Proposal]
+    D --> O[Negotiation]
+    D --> P[Closed Won/Lost]
+    E --> Q[Pipeline Value]
+    E --> R[Revenue Reports]
+    E --> S[Segment Analysis]
+```
+
+### Funcionalidades
+
+- Gestao completa de clientes com segmentacao (Enterprise, SMB, Mid-Market)
+- Rastreamento de interacoes: email, chamada, reuniao, ticket de suporte
+- Pipeline de vendas com estagios e probabilidade ponderada
+- Busca de clientes por nome, email ou empresa
+- Analises: valor do pipeline, receita fechada, distribuicao por segmento
+- Calculo automatico de Lifetime Value (LTV) do cliente
+
+### Como Executar
+
+```bash
+mvn compile
+mvn exec:java -Dexec.mainClass="com.galafis.crm.CrmPlatform"
+```
 
 ---
 
 ## English
 
-### 🎯 Overview
+CRM (Customer Relationship Management) platform in Java with customer management, interaction tracking, sales pipeline with stages, and commercial performance analytics.
 
-**Java Crm Platform** is a production-grade Java application that showcases modern software engineering practices including clean architecture, comprehensive testing, containerized deployment, and CI/CD readiness.
-
-The codebase comprises **23 lines** of source code organized across **1 modules**, following industry best practices for maintainability, scalability, and code quality.
-
-### ✨ Key Features
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Architecture
+### Architecture
 
 ```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
+graph TD
+    A[CrmPlatform] --> B[Customer Management]
+    A --> C[Interaction Tracking]
+    A --> D[Sales Pipeline]
+    A --> E[Analytics Engine]
+    B --> F[Customer]
+    B --> G[Segmentation]
+    C --> H[Email]
+    C --> I[Call]
+    C --> J[Meeting]
+    C --> K[Support Ticket]
+    D --> L[Prospecting]
+    D --> M[Qualification]
+    D --> N[Proposal]
+    D --> O[Negotiation]
+    D --> P[Closed Won/Lost]
+    E --> Q[Pipeline Value]
+    E --> R[Revenue Reports]
+    E --> S[Segment Analysis]
 ```
 
-### 🚀 Quick Start
+### Features
 
-#### Prerequisites
+- Full customer management with segmentation (Enterprise, SMB, Mid-Market)
+- Interaction tracking: email, call, meeting, support ticket
+- Sales pipeline with stages and weighted probability
+- Customer search by name, email, or company
+- Analytics: pipeline value, closed revenue, segment distribution
+- Automatic customer Lifetime Value (LTV) calculation
 
-- Java 21+ (JDK)
-- Maven 3.9+
-
-#### Installation
+### How to Run
 
 ```bash
-# Clone the repository
-git clone https://github.com/galafis/Java-CRM-Platform.git
-cd Java-CRM-Platform
-
-# Build the project
-mvn clean install
+mvn compile
+mvn exec:java -Dexec.mainClass="com.galafis.crm.CrmPlatform"
 ```
 
-#### Running
+## Author
 
-```bash
-mvn spring-boot:run
-```
+Gabriel Demetrios Lafis
 
-### 📁 Project Structure
+## License
 
-```
-Java-CRM-Platform/
-├── images/
-├── src/          # Source code
-│   └── main/
-│       └── java/
-├── LICENSE
-└── README.md
-```
-
-### 🛠️ Tech Stack
-
-| Technology | Description | Role |
-|------------|-------------|------|
-| **Java** | Core Language | Primary |
-
-### 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### 👤 Author
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
-
----
-
-## Português
-
-### 🎯 Visão Geral
-
-**Java Crm Platform** é uma aplicação Java de nível profissional que demonstra práticas modernas de engenharia de software, incluindo arquitetura limpa, testes abrangentes, implantação containerizada e prontidão para CI/CD.
-
-A base de código compreende **23 linhas** de código-fonte organizadas em **1 módulos**, seguindo as melhores práticas do setor para manutenibilidade, escalabilidade e qualidade de código.
-
-### ✨ Funcionalidades Principais
-
-- **📐 Clean Architecture**: Modular design with clear separation of concerns
-- **🧪 Test Coverage**: Unit and integration tests for reliability
-- **📚 Documentation**: Comprehensive inline documentation and examples
-- **🔧 Configuration**: Environment-based configuration management
-
-### 🏗️ Arquitetura
-
-```mermaid
-graph TB
-    subgraph Core["🏗️ Core"]
-        A[Main Module]
-        B[Business Logic]
-        C[Data Processing]
-    end
-    
-    subgraph Support["🔧 Support"]
-        D[Configuration]
-        E[Utilities]
-        F[Tests]
-    end
-    
-    A --> B --> C
-    D --> A
-    E --> B
-    F -.-> B
-    
-    style Core fill:#e1f5fe
-    style Support fill:#f3e5f5
-```
-
-### 🚀 Início Rápido
-
-#### Prerequisites
-
-- Java 21+ (JDK)
-- Maven 3.9+
-
-#### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/galafis/Java-CRM-Platform.git
-cd Java-CRM-Platform
-
-# Build the project
-mvn clean install
-```
-
-#### Running
-
-```bash
-mvn spring-boot:run
-```
-
-### 📁 Estrutura do Projeto
-
-```
-Java-CRM-Platform/
-├── images/
-├── src/          # Source code
-│   └── main/
-│       └── java/
-├── LICENSE
-└── README.md
-```
-
-### 🛠️ Stack Tecnológica
-
-| Tecnologia | Descrição | Papel |
-|------------|-----------|-------|
-| **Java** | Core Language | Primary |
-
-### 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
-
-### 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-### 👤 Autor
-
-**Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
+MIT License
